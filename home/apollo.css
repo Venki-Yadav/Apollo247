@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:ital,wght@0,100;0,400;1,200&family=Poppins:wght@100;200;300&display=swap');
+body {
+    width: max-content;
+    margin: auto;
+    background-color: #dcdfce;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#apolloparent{
+    padding:20px;
+}
+
+td {
+    font-size: 12px;
+    font-weight: 300;
+    color: #02475b
+}
+
+tr {
+    font-size: 13px;
+    font-weight: 600;
+    color: #01475b;
+}
+
+.notfooter {
+    width: 1000px;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+table {
+    margin-left: 170px;
+    width: 300px;
+    height: 70px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+table {
+    margin-left: 170px;
+}
+
+.logo {
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.cart {
+    margin-right: -90px;
+}
+
+.profile {
+    margin-right: -100px;
+}
+
+.logo {
+    margin-left: -70px;
+    margin-top: 10px;
+}
+
+.cart {
+    margin-right: -100px;
+}
+
+.profile {
+    margin-right: -150px;
+}
+
+h1 {
+    margin-left: 60px;
+}
+
+.hello {
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+
+.slider {
+    margin-top: 40px;
+    background-color: white;
+    width: 900px;
+    height: 160px;
+    overflow: scroll;
+}
+
+button {
+    width: 350px;
+    height: 60px;
+}
+
+.button {
+    width: 175px;
+    height: 60px;
+}
+
+.slider {
+    width: 950px;
+    height: 166px;
+    overflow: scroll;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+button {
+    width: 350px;
+    height: 60px;
+}
+
+.hello .left .button {
+    display: inline;
+    width: 160px;
+    height: 60px;
+}
+
+#vaccinationquery {
+    background-color: white;
+    width: 910px;
+    height: 126px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right:
+}
+
+#vaccinationquery>h3 {
+    color: #26b797;
+    margin-left: 20px;
+}
+
+.queryicons {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+#subvaccinationquery {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+#subvaccinationquery>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2px 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 41px;
+}
+
+#subvaccinationquery>div>p {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: orange;
+    font-size: smaller;
+}
+
+#discover {
+    width: 950px;
+    height: 160px;
+    display: block;
+    margin: 10px 30px 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#health {
+    background-image: url(https://newassets.apollo247.com/images/ecosystem-banner.jpg);
+    width: 850px;
+    background-repeat: repeat-x;
+    padding: 30px;
+    margin: auto;
+    /* margin-left: 300px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#health>div>h1,
+p {
+    margin: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+#tablet {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #fc9916;
+    font-weight: 1100px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.a {
+    font-size: 12px;
+    font-weight: 300;
+    color: #02475b;
+}
+
+.healthblog {
+    width: 900px;
+    margin: auto;
+}
+
+.healthblog>p {
+    margin-left: 20px;
+    color: #07Ae8B;
+}
+
+.healthblog>div>div {
+    width: 170px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#underline {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    border-bottom: 1px dashed gray;
+}
+
+.healthblog>div>p {
+    color: #01475B99;
+}
+
+.footer {
+    width: 1000px;
+    background-color: white;
+    color: black;
+}
+
+.foothead {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.footer p {
+    color: rgb(138, 135, 135);
+}
+
+.footer2 {
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer2head {
+    color: #fc9916;
+}
+
+.footerlogo {
+    width: 100px;
+    height: 77px;
+    margin-left: 400px;
+}
+
+.shouldbeinline li {
+    display: inline;
+    color: white;
+    margin-left: 10px;
+}
+
+span {
+    color: white;
+    width: 5px;
+    height: 5px;
+}
+
+.slider .img {
+    margin: 10px;
+    margin-top: -10px;
+}
+
+
+/* loginpage styles */
+
+.logincontainer {
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 340px;
+    padding: 20px;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 30%);
+    min-height: 240px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.login>h2 {
+    color: #02475b;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.login>h2+p {
+    color: #0087ba;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.enter {
+    display: flex;
+    border-bottom: 2px solid #0087ba;
+    padding-bottom: 0px;
+}
+
+.enter>p {
+    color: #02475b;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 19px;
+}
+
+.enter>input {
+    color: #01475b;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 4px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+}
+
+.number>div>img {
+    width: 76px;
+    width: 56px;
+    background-color: orange;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.number {
+    display: flex;
+}
+
+.checkbox {
+    width: 33px;
+    height: 24px;
+    background-color: green;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.check>p>a {
+    text-decoration: none;
+    color: orange;
+}
+
+.check {
+    display: flex;
+}
+
+.close {
+    text-align: center;
+    text-align: right;
+    font-size: 42px;
+    color: #333;
+    cursor: pointer;
+}
+
+.close>img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 95%;
+}
+
+.close>img:hover {
+    background-color: red;
+}
+
+.otpmsg {
+    width: 70%;
+    margin: 5px;
+}
+
+.otpcontainer {
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.otppopup {
+    width: 340px;
+    padding: 20px;
+    box-shadow: 0 5px 40px 0 rgb(0 0 0 / 30%);
+    min-height: 340px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.close2 {
+    text-align: center;
+    text-align: right;
+    font-size: 42px;
+    color: #333;
+    cursor: pointer;
+}
+
+.close2>img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 95%;
+}
+
+.close2>img:hover {
+    background-color: red;
+}
+
+.line {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 1px;
+    margin: 10px 0 20px;
+}
+
+.line span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.otppopup>h2 {
+    color: #02475b;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.otppopup>h2+p {
+    color: #0087ba;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.otpenter>div>img {
+    width: 35px;
+    width: 35px;
+    background-color: orange;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.otpenter {
+    display: flex;
+    margin: 20px;
+    margin-left: 10px;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+}
+
+.otpenter>div>input {
+    color: #01475b;
+    font-size: 18px;
+    border-bottom: 2px solid #02475b;
+    font-weight: 500;
+    /* padding: 10px; */
+    /* padding-left: 0px; */
+    /* padding-bottom: 0px; */
+    outline: none;
+    border: none;
+    margin: 10px;
+    margin-left: 3px;
+}
+
+.otpinp {
+    border-bottom: 2px solid #0087ba;
+    padding: 0px;
+}
+
+.otpinp>input {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Resend {
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.call {
+    color: #fff;
+    background-color: orange;
+    width: 80%;
+    padding: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.call>img {
+    margin: 10x;
+}
+
+.get {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+.missingp,
+.otpmsg {
+    color: gray;
+}
+
+.or {
+    color: black;
+    font-weight: 800;
+}
